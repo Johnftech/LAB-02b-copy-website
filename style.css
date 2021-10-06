@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    background: navajowhite;
+    grid-template-rows: 75px 1fr 28px;
+    color: red;
+}
+
+* {
+    box-sizing: border-box;
+}
+header {
+    background: black;
+    color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 120px 1fr 30px;
+    align-items: center;
+}
+
+nav {
+    justify-self: center;
+}
+h1 {
+    margin: 0;
+
+}
+
+main {
+    overflow-y: auto;
+    padding: 8px;
+}
+
+footer {
+    background: teal;
+    color: light blueviolet;
+
+}
+
